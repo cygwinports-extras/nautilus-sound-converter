@@ -1,0 +1,80 @@
+nautilus-sound-converter
+------------------------------------------
+The Nautilus-Sound-Converter extension allows you to convert audio
+files to different formats using the GStreamer framework.
+
+Runtime requirements:
+  cygwin-1.5.25-15
+  GConf2-2.22.0-1
+  glib2-2.16.6-1
+  gnome-media-2.22.0-1
+  gstreamer010-0.10.21-1
+  gstreamer010-plugins-base
+  gstreamer010-plugins-ffmpeg
+  gstreamer010-plugins-gio
+  gstreamer010-plugins-mad
+  gstreamer010-plugins-wavpack
+  gtk2-x11-2.12.12-1
+  libintl8-0.17-2
+  nautilus-2.22.5.1-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  autoconf2.5-2.63-1
+  automake1.10-1.10.1-1
+  binutils-20080624-2
+  cygport-0.4.2-1
+  gawk-3.1.6-1
+  gcc-core-3.4.4-3
+  gnome-common-2.20.0-2
+  intltool-0.40.5-1
+  libtool-2.2.6a-1
+  make-3.81-1
+  pkg-config-0.23a-2
+  sed-4.1.5-2
+
+Canonical website:
+  http://code.google.com/p/nautilus-sound-converter/
+
+Canonical download:
+  http://nautilus-sound-converter.googlecode.com/files/
+
+-------------------------------------------
+
+Build instructions:
+  unpack nautilus-sound-converter-0.7.0-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./nautilus-sound-converter-0.7.0-X.cygport all
+
+This will create:
+  /usr/src/nautilus-sound-converter-0.7.0-X-src.tar.bz2
+  /usr/src/nautilus-sound-converter-0.7.0-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/nautilus/extensions-2.0/cygnautilus-sound-converter.dll
+  /usr/lib/nautilus/extensions-2.0/libnautilus-sound-converter.la
+  /usr/share/doc/nautilus-sound-converter-0.7.0/AUTHORS
+  /usr/share/doc/nautilus-sound-converter-0.7.0/COPYING
+  /usr/share/doc/nautilus-sound-converter-0.7.0/ChangeLog
+  /usr/share/doc/nautilus-sound-converter-0.7.0/INSTALL
+  /usr/share/doc/nautilus-sound-converter-0.7.0/NEWS
+  /usr/share/doc/nautilus-sound-converter-0.7.0/README
+  /usr/share/doc/nautilus-sound-converter-0.7.0/TODO
+  /usr/share/nautilus-sound-converter/main.xml
+  /usr/share/nautilus-sound-converter/progress.xml
+
+------------------
+
+Port Notes:
+
+----- version 0.7.0-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/

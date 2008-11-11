@@ -1,0 +1,5 @@
+category: Audio Gnome
+requires: cygwin GConf2 glib2 gnome-media gstreamer010 gstreamer010-plugins-base gstreamer010-plugins-ffmpeg gstreamer010-plugins-gio gstreamer010-plugins-mad gstreamer010-plugins-wavpack gtk2-x11 libintl8 nautilus
+sdesc: "Nautilus audio file conversion extension"
+ldesc: "The Nautilus-Sound-Converter extension allows you to convert 
+audio files to different formats using the GStreamer framework."

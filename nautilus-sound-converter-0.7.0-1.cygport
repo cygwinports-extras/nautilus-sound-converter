@@ -1,0 +1,6 @@
+inherit gnome2
+
+DESCRIPTION="Nautilus audio file converter extension"
+HOMEPAGE="http://code.google.com/p/nautilus-sound-converter/"
+SRC_URI="http://nautilus-sound-converter.googlecode.com/files/${P}.tar.bz2"
+PATCH_URI="0.7.0-no-undefined.patch"
